@@ -33,7 +33,7 @@ def update(dt):
                               anchor_x='center',
                               anchor_y='center',
                               color=(132,255,104,100))
-        deltext = pyglet.text.Label('('+str(delta)+')',
+        deltext = pyglet.text.Label('($'+str(delta)+')',
                                     font_size=size//2,
                                     x=window.width//2,
                                     y=window.height//5,
@@ -51,7 +51,7 @@ def update(dt):
                               anchor_x='center',
                               anchor_y='center',
                               color=(255,73,73,100))
-        deltext = pyglet.text.Label('('+str(delta)+')',
+        deltext = pyglet.text.Label('($'+str(delta)+')',
                                     font_size=size//2,
                                     x=window.width//2,
                                     y=window.height//5,
@@ -70,7 +70,7 @@ def update(dt):
                               anchor_x='center',
                               anchor_y='center',
                               color=(255,255,255,100))
-        deltext = pyglet.text.Label('('+str(delta)+')',
+        deltext = pyglet.text.Label('($'+str(delta)+')',
                                     font_size=size//2,
                                     x=window.width//2,
                                     y=window.height//5,
