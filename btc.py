@@ -110,6 +110,6 @@ if __name__ == "__main__":
                               anchor_x='center',
                               anchor_y='center')
 
-    pyglet.clock.schedule_interval(update, 15.0)
+    pyglet.clock.schedule_interval(update, 45.0)
 
     pyglet.app.run()
